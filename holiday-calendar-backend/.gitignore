@@ -1,0 +1,26 @@
+# Ignore Go build artifacts
+main
+*.exe
+*.out
+*.o
+
+# Ignore dependency folders
+bin/
+pkg/
+vendor/
+
+# Ignore config files and environment variables
+.env
+config/local_settings.go
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
